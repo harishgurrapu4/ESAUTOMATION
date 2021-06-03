@@ -25,7 +25,7 @@ public class BasePage {
 
     public static void initialization(String device) {
         if (device.equals("Android")) {
-            Utilities.setDevicePropertyFile(System.getProperty("user.dir") + "src/main/resources/android.properties");
+            Utilities.setDevicePropertyFile(System.getProperty("user.dir") + "/src/main/resources/android.properties");
 
             try {
                 DesiredCapabilities cap = new DesiredCapabilities();
@@ -45,7 +45,7 @@ public class BasePage {
             }
         }
         if (device.equals("iOS")) {
-            Utilities.setDevicePropertyFile(System.getProperty("user.dir") + "src/main/resources/iOS.properties");
+            Utilities.setDevicePropertyFile(System.getProperty("user.dir") + "/src/main/resources/iOS.properties");
             // iOS initialization
         }
 
