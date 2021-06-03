@@ -1,8 +1,8 @@
-Feature: Collection Module
+Feature:English Score Features
 
 
 @Test
-Scenario: Collections for Salary Deduction
+Scenario: Onboarding Tests
 
 Given The Onboarding slides
 And Swipe till we reach to the get started page
