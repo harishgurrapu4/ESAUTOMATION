@@ -1,0 +1,11 @@
+# Don't track content of these folders
+target/
+.idea/
+.settings/
+report/
+.classpath
+.project
+ .metadata/
+
+
+
